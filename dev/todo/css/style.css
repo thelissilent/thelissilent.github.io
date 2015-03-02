@@ -1,0 +1,172 @@
+/* style.css 
+ * for todo
+ */
+
+@import url("css_reset.css");
+@import url("fonts.css");
+
+/* body */
+body {
+  background-color: rgb(40,40,45);
+  color:rgb(255,255,255);
+  font-family: 'League Spartan', serif;
+  padding: 20px;
+}
+
+/* p */
+p {
+  font: 26px 'Sorts Mill Goudy', serif;
+  line-height: 1.3em;
+}
+
+/* header */
+header button {
+  background: none;
+  border:0;
+  border-radius: 5px;
+  color:rgb(255,255,255);
+  font: 24px 'Sorts Mill Goudy', sans-serif;
+  height: 50px;
+  width: 50px;
+}
+
+header button:hover {
+  background-color:rgba(255,255,255,0.1);
+  outline:none;
+}
+
+header button:focus {
+  outline:none;
+ }
+
+header button:active {
+  background-color:rgba(255,255,255,0.2);
+  outline:none;
+  -webkit-transition-duration:0.125s;
+  -moz-transition-duration:0.125s;
+  transition-duration: 0.125s;
+}
+
+header form {
+  display:none;
+}
+
+header input {
+  background-color: rgba(255,255,255,0.1);
+  border:none;
+  border-radius: 4px;
+  color:rgb(255,255,255);
+  font:20px 'Sorts Mill Goudy', serif;
+  margin-bottom:20px;
+  padding:20px 20px;
+  width: 100%;
+}
+
+header input:active, input:focus {
+  background-color: rgba(255,255,255,0.2);
+  outline:none;
+}
+
+/* #content */
+#content {
+  padding: 0 10px;
+}
+
+/* .todo_item */
+.todo_item {
+  color:rgb(255,255,255);
+  color: rgba(255,255,255,1);
+  cursor:pointer;
+  margin-bottom:2px;
+  padding:20px 0;
+  width:100%;
+}
+
+.todo_item:active, .todo_item:visited {
+  color: rgb(60,60,65);
+}
+
+/* .deleted */
+.deleted {
+  text-decoration:line-through;
+  color:rgba(150,150,155,0.5);
+}
+
+/*
+ * BREAKPOINTS
+ */
+
+/* 768–979 */
+@media (min-width:640px) {
+  /* p */
+  p {
+    line-height: 1.5em;
+  }
+}
+
+/* 980-1199 */
+@media (min-width:980px) {
+  /* header */
+  header {
+    margin:40px 0 60px 0;
+  }
+  
+  header button {
+    display:none;
+  }
+  
+  header form {
+    display:block;
+    margin:0 auto;
+    width:520px;
+  }
+  header input {
+    margin:0 auto;
+    padding:10px;
+  }
+  
+  /* .todo_item */
+  .todo_item {
+    display:block;
+    float:left;
+    padding-right:3%;
+    width:47%;
+  }  
+}
+
+/* 1200-1799 */
+@media (min-width:1200px) {
+  /* body */
+  body {
+    padding:20px 15%;
+  }
+  
+  /* p */
+  p {
+   font-size:24px; 
+  }
+  
+  /* .todo_item */
+  .todo_item {
+    display:block;
+    float:left;
+    padding-right:2%;
+    width:31%;
+  }
+}
+
+/* 1800+ */
+@media (min-width:1800px) {
+  /* p */
+  p {
+   font-size:22px; 
+  }
+  
+  /* .todo_item */
+  .todo_item {
+    display:block;
+    float:left;
+    padding-right:1%;
+    width:24%;
+  }
+}

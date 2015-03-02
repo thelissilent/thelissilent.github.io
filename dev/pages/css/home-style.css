@@ -1,0 +1,169 @@
+/*
+ home-style.css
+*/
+
+/* CSS RESET */
+@import url('reset.css');
+
+/* @fontface */
+@import url('fonts.css');
+
+/* body */
+body {
+	font:1em/1.2em Helvetica, Arial, Myriad Pro, sans-serif;
+	font-smooth:always;
+	-webkit-font-smoothing: antialiased;
+	width:100%;
+	min-width:1100px;
+}
+
+/* strong */
+strong {
+	color:rgb(30,30,30);
+}
+
+/* #header */
+header#header {
+		
+}
+
+/* .hidden */
+.hidden {
+	display:none;
+	visibility:hidden;
+}
+
+/* header */
+#header {
+	background-color:none;
+	margin-bottom:60px;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:1;
+}
+
+/* #logo */
+#logo {
+}
+
+#logo a {
+	background:transparent url('../images/img-logo-sbp-home.png');
+	display:block;
+	height:96px;
+	margin:15px 30px;
+	width:128px;	
+}
+
+/* #global-nav */
+#global-nav {
+	color:rgb(170,170,170);
+	font:300 1.1em 'Adobe Garamond Pro', Garamond, Georgia, 'Times New Roman', serif;
+	position:absolute;
+	right:40px;
+	text-transform:uppercase;
+	top:50px;
+}
+
+#global-nav a {
+	padding:40px 20px;
+}
+
+#global-nav a:hover {
+	color:#BBBBBB;
+	color:rgba(140,220,200,1);
+}
+
+/* section */
+section {
+	min-height:750px;
+	width:100%;
+}
+
+.content {
+	margin-left:30px;
+	position:relative;
+	top:180px;
+}
+
+.content h1 {
+	float:left;
+	font:10em/0.8em 'League Gothic', sans-serif;
+	margin-bottom:20px;
+	text-transform:uppercase;
+	width:400px;
+}
+
+.content p {
+	color:rgb(120,120,120);
+	float:left;
+	font-size:1.1em;
+	font-weight:300;
+	line-height:2.3em;
+	margin-left:200px;
+	width:430px;
+}
+
+.content a {
+	color:rgb(140,220,200);
+	font:300 1.3em 'Adobe Garamond Pro', Garamond, Georgia, 'Times New Roman', serif;
+}
+
+/* #section-01 */
+#section-01 {
+	background:transparent url('../images/bike-tire.jpg') no-repeat;
+	background-size:100%;	
+}
+
+/* #section-03 */
+#section-03 {
+	background:transparent url('../images/stars.gif') no-repeat;
+	background-size:100%;
+}
+/* .about */
+.about {
+	margin-left:30px;
+	position:relative;
+	top:200px;
+}
+
+.about p {
+	color:rgb(120,120,120);
+	float:left;
+	font-size:1.1em;
+	font-weight:300;
+	line-height:2.3em;
+	margin-right:80px;
+	width:450px;
+}
+
+/* about-image */
+.about-image {
+	float:left;
+	margin-right:15px;
+}
+
+/* .down-arrow */
+.down-arrow {
+	background:transparent url('../images/ic-down-arrow.png');
+	display:block;
+	height:30px;
+	margin-right:5px;
+	position:relative;
+	top:410px;
+	width:30px;
+}
+
+/* .dark */
+.dark {
+	background-color:rgb(30,30,30);
+	color:rgb(255,255,255);
+	color:rgba(255,255,255,1);
+}
+
+/* .light */
+.light {
+	background-color:rgb(255,255,255);
+	color:rgb(30,30,30);
+	color:rgba(30,30,30,1);
+}
