@@ -1,15 +1,18 @@
+<!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   
   <body>
-    <form>
+    <ol id="queue">
+    </ol>
+    
+    <form id='queue_form' name='queue_form' onsubmit='return updateQueue();'>
       <input type="text" id="newChallengeInput" name="newChallengeInput" placeholder="Add a challenge..." autocomplete="off" />
     </form>
-    <ul id="queue">
-    </ul>
     
-    <script src="challengeQueue.js"></script>
+    <script src="script/challengeQueue.js"></script>
   </body>
 
 </html>
