@@ -32,7 +32,7 @@ header {
 }
 	
 header #logo {
-	background:transparent url("../images/logo_hulme.png") no-repeat;
+	background:transparent url("../images/logo_hulme_dark.png") no-repeat;
   background-size: contain;
 	display:block;
 	height:60px;
