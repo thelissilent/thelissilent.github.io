@@ -10,8 +10,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* end CSS reset */
 	
 body {
-	font-family:'Adobe Garamond Pro', 'Myriad Pro', Myriad, Arial, sans-serif;
-	-webkit-font-smoothing:antialiased;
+	font-family:'Cormorant Garamond', 'Garamond', 'Caslon', 'Adobe Caslon Pro', 'Times New Roman', serif;
 	margin:0 5%;
 }
 
@@ -33,18 +32,24 @@ header {
 }
 	
 header #logo {
-	background:transparent url("../images/logo_hulme.png") no-repeat;
+	background:transparent url("../images/logo_hulme_dark.png") no-repeat;
+    background-size: contain;
 	display:block;
-	height:49px;
-	position:absolute;
-	top:30px;
-	width:165px;
+	height:60px;
+	position:fixed;
+	width:168px;
 }
 
 header #logo a {
 	display:block;
-	height:49px;
-	width:165px;
+	height:54px;
+	width:150px;
+}
+
+h1 {
+  font-family: 'Karla', Helvetica, Arial, sans-serif;
+  font-size:3.5em;
+  padding:0 10%;
 }
 		
 section h2 {
@@ -71,12 +76,25 @@ section h2 {
 	}
 	
 	header #logo {
-		left:5%;
+      left:5%;
+      height:60px;
+      top: 28px;
+      width:170px;
 	}
-	
+  
+    header #logo a {
+      display:block;
+      height:85px;
+      width:220px;
+    }
+    section h1 {
+      font-size:3.2em;
+      padding:30px 10% 0px 10%;
+    }
+  
 	section h2 {
 		font-size:1.4em;
-		padding:10%;
+		padding:20px 10% 40px 10%;
 	}
 
 	section#content {
@@ -93,11 +111,15 @@ section h2 {
 	#content .post img {
 		max-width:100%;
 	}
-} /* End media screen and (max-width:1400px) */
+} /* End media screen and (max-width:1100px) */
 
 
 @media screen and (max-width:700px) {
-	section h2 {
+  section h1 {
+    font-size:3em;
+    padding-left:0;
+  }
+  section h2 {
 		font-size:1.2em;
 		padding-left:0;
 	}
@@ -105,7 +127,7 @@ section h2 {
 	#content .post {
 		margin-bottom:0.8%;
 	}	
-} /* End media screen and (min-width:1401px) */
+} /* End media screen and (min-width:1101px) */
 
 
 @media screen and (min-width:1101px) {
@@ -113,32 +135,36 @@ section h2 {
 	header {
 		background-color:rgb(255,255,255);
 		display:block;
-		height:120px;
+		height:115px;
 		margin:0 auto;
-
 	}
 	
 	header #logo {
-		left:0.15%;
+		left:3.5%;
+        top:25px;
 	}
+  
+    section h1 {
+        font-size:3.5em;
+        padding:40px 7% 20px 7%;
+    }
 
 	section h2 {
 		font-size:1.4em;
-		padding-bottom:14%;
-		padding-left:7%;
-		padding-right:7%;
-		padding-top:14%;
+        padding:0px 7% 80px 7%;
 	}
 	
 	section#content {
 		background-color:rgb(255,255,255);
+      background-position: center;
+      background-size: cover;
 		clear:both;
 		display:block;
 		max-width:1810px;
 		margin:0 auto;
 	}
-
-	#content #left {
+	
+  #content #left {
 		display:inline;
 		float:left;
 		margin-right:0.552486187%;
@@ -161,6 +187,22 @@ section h2 {
 		margin-right:0;
 		width:32.96%;
 	}
+  
+    #content #two-col-left {
+      display:inline;
+      float:left;
+      margin-right:0.4%;
+      max-width:948px;
+      width:49.6%;
+    }
+  
+    #content #two-col-right {
+      display:inline;
+      float:right;
+      margin-right:0%;
+      max-width:948px;
+      width:49.6%;
+    }
 	
 	#content .post {
 		margin-bottom:0.7%;
