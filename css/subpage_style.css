@@ -1,0 +1,12 @@
+/* style.css
+ *
+ * styling for www.theLisSilent.com
+ * August 8, 2013
+ *
+ */
+
+@import url('style.css');
+	
+.post img {
+  width:2100px;
+}
