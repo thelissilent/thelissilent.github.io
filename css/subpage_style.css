@@ -6,7 +6,11 @@
  */
 
 @import url('style.css');
-	
+
+.redacted {
+  text-decoration: line-through;
+}
+
 .post img {
   width:2100px;
 }
