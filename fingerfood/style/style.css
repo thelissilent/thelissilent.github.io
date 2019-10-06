@@ -1,0 +1,93 @@
+/* style.css for finger food  */
+
+@import url("reset.css");
+
+body {
+    width:55%;
+    margin: 0 auto;
+}
+
+
+a {
+	color: #6D688B;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#6D688B;
+}
+
+img, video {
+		border-radius: 8px;
+		box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+		display:block;
+    margin:0 auto;
+		margin-bottom:60px;
+    left:-10%;
+		position:relative;
+    width:120%;
+}
+
+h1 {
+		color:#6D688B;
+		font-family: "Lora", serif;
+		font-size: 6vmin;
+    margin:120px 0 60px 0;
+}
+
+h2 {
+		color:#FF5181;
+    font-family:"Karla", sans-serif;
+		font-size:4vmin;
+    margin:20px 0 20px 0;
+		text-transform: capitalize;
+}
+
+h3 {
+		color:#FF5181;
+		font-family:"Karla", sans-serif;
+    font-size:3vmin;
+		font-weight:700;
+    margin-bottom:20px;
+		text-transform: uppercase;
+}
+
+p {
+		color:#6D688B;
+		font-family: "Lora", serif;
+    font-size:14pt;
+    line-height: 2em;
+    margin-bottom:60px;
+}
+
+/** Classes **/
+
+.bold {
+	background-color:rgba(239,255,62,0.2);
+}
+
+.img-small {
+		display:block;
+		left:0;
+		margin:20px auto;
+		width:60%;
+}
+
+.num-count {
+		color:#dadada;
+		font-size:14pt;
+}
+
+.unbold {
+	color:rgba(109,104,139, 0.5);
+}
+
+.vid-small {
+		display:block;
+		left:0;
+		margin-bottom:60px;
+		margin-left: auto;
+		margin-right:auto;
+		margin-top: 0px;
+		width:40%;
+}
