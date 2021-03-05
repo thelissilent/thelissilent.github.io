@@ -107,6 +107,16 @@ p {
   padding:80px 30px;
 }
 
+#pdfPortfolio {
+  margin-bottom: 80px;
+}
+
+#pdfPortfolio a {
+  background-color:rgb(245,255,0);
+  color:#222222;
+  /*text-decoration: underline;*/
+}
+
 .bold {
   color:#222222;
   font-weight:600;
