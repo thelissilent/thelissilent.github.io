@@ -117,6 +117,12 @@ p {
   /*text-decoration: underline;*/
 }
 
+#pdfPortfolio a:hover {
+  background-color:rgb(235,245,0);
+  color:#222222;
+  /*text-decoration: underline;*/
+}
+
 .bold {
   color:#222222;
   font-weight:600;
